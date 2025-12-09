@@ -1,11 +1,11 @@
-<!ELEMENT pedido (tractor+, componente, fechaentrega)>
+<!ELEMENT pedido (tractor+)>
 <!ELEMENT tractor (componente+)>
-<!ELEMENT componente (nombrefabricante,fechaentrega, (fragil | nofragil) ,peso,numserie,kmmaximo?)>
+<!ELEMENT componente (fechaentrega,(fragil | nofragil),peso,numserie,kmmaximos?)>
+<!ATTLIST componente nombrefabricante CDATA #REQUIRED>
 <!ELEMENT fechaentrega (dia?, mes, anio)>
 <!ELEMENT dia (#PCDATA)>
 <!ELEMENT mes (#PCDATA)>
 <!ELEMENT anio (#PCDATA)>
-<!ATTLIST componente nombrefabricante CDATA #REQUIRED>
 <!ELEMENT fragil EMPTY>
 <!ELEMENT nofragil EMPTY>
 <!ATTLIST peso unidad CDATA #REQUIRED>

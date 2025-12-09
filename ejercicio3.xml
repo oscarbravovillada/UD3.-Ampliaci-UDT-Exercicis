@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE pedido SYSTEM "ejercicio3.dtd">
 <pedido>
  <tractor>
  <componente nombrefabricante="Ebro">
@@ -27,4 +25,4 @@
  <numserie>43Z</numserie>
  </componente>
  </tractor>
-</pedido>
+</pedido> 
