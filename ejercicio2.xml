@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operaciones SYSTEM "operaciones.dtd">
 <operaciones>
  <operacion>
  <venta>
@@ -9,13 +11,16 @@
  </titulosvendidos>
  </venta>
  <venta>
- <titulosvendidos>
+
+<titulosvendidos>
  <titulo>Rinconete y Cortadillo</titulo>
  <titulo>Sainetes</titulo>
  <cantidadtotal>1000</cantidadtotal>
- <entregado/>
+    <entregado/>
+
  <importe moneda="libras">290</importe>
- </titulosvendidos>
+</titulosvendidos>
+
  </venta>
  </operacion>
  <operacion>
@@ -36,8 +41,10 @@
  <titulo>Cinco semanas en globo</titulo>
  <titulo>Sainetes</titulo>
  <cantidadtotal>700</cantidadtotal>
- <entregado/>
+    <entregado/>
+
  <importe moneda="euros">1490</importe>
+
  </titulosvendidos>
  </venta>
  <compra>

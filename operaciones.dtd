@@ -2,7 +2,7 @@
 <!ELEMENT operacion (venta | compra)*>
 <!ELEMENT venta (titulosvendidos)>
 <!ELEMENT compra (tituloscomprados)>
-<!ELEMENT titulosvendidos (titulo+, cantidadtotal, entregado?)>
+<!ELEMENT titulosvendidos (titulo+, cantidadtotal,entregado?, importe)>
 <!ELEMENT tituloscomprados (titulo+,proveedor, fechacompra)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT proveedor (#PCDATA)>
