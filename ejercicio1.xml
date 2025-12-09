@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE listaentrega SYSTEM "ejercicio1lote.dtd">
-<listaentrega>
+<listaentrega> <!-- Hola Ana, he utilitzat el https://jsonformatter.org/xml-formatter per a fer-ho més arreglat-->
 	<lote>
 		<pale>
 			<contenido>
