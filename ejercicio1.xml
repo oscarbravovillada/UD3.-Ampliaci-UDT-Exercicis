@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaentrega SYSTEM "ejercicio1lote.dtd">
+<listaentrega>
+	<lote>
+		<pale>
+			<contenido>
+				<nombrecomponente>Asus pc</nombrecomponente>
+				<procedencia>Colombia</procedencia>
+				<numeroseriecomponente>1215</numeroseriecomponente>
+				<pesocomponente>2kg</pesocomponente>
+				<unidaddepeso>1.5kg</unidaddepeso>
+			</contenido>
+			<numcajas>5</numcajas>
+			<peso>5kg</peso>
+			<manipulacion></manipulacion>
+		</pale>
+		<pale>
+			<contenido>
+				<nombrecomponente>Asus pc</nombrecomponente>
+				<procedencia>España</procedencia>
+				<numeroseriecomponente>1215</numeroseriecomponente>
+				<pesocomponente>2kg</pesocomponente>
+				<unidaddepeso>1.5kg</unidaddepeso>
+			</contenido>
+			<numcajas>5</numcajas>
+			<peso>5kg</peso>
+			<manipulacion></manipulacion>
+		</pale>
+	</lote>
+	<lote>
+		<pale>
+			<contenido>
+				<nombrecomponente>Asus pc</nombrecomponente>
+				<procedencia></procedencia>
+				<numeroseriecomponente>1215</numeroseriecomponente>
+				<pesocomponente>2kg</pesocomponente>
+				<unidaddepeso>1.5kg</unidaddepeso>
+			</contenido>
+			<numcajas>5</numcajas>
+			<peso>5kg</peso>
+			<manipulacion></manipulacion>
+		</pale>
+	</lote>
+</listaentrega>
